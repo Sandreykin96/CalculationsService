@@ -5739,11 +5739,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Юрий\\Desktop\\конференция\\SymbolsCalks\\StringCalculatorUnitTest\\StringCalculatorUnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\Юрий\\Desktop\\CalculationsService\\StringCalculatorUnitTest\\StringCalculatorUnitTest.csproj",
       "projectName": "StringCalculatorUnitTest",
-      "projectPath": "C:\\Users\\Юрий\\Desktop\\конференция\\SymbolsCalks\\StringCalculatorUnitTest\\StringCalculatorUnitTest.csproj",
+      "projectPath": "C:\\Users\\Юрий\\Desktop\\CalculationsService\\StringCalculatorUnitTest\\StringCalculatorUnitTest.csproj",
       "packagesPath": "C:\\Users\\Юрий\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Юрий\\Desktop\\конференция\\SymbolsCalks\\StringCalculatorUnitTest\\obj\\",
+      "outputPath": "C:\\Users\\Юрий\\Desktop\\CalculationsService\\StringCalculatorUnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5764,8 +5764,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Юрий\\Desktop\\конференция\\SymbolsCalks\\StringCalculatorLibrary\\StringCalculatorLibrary.csproj": {
-              "projectPath": "C:\\Users\\Юрий\\Desktop\\конференция\\SymbolsCalks\\StringCalculatorLibrary\\StringCalculatorLibrary.csproj"
+            "C:\\Users\\Юрий\\Desktop\\CalculationsService\\StringCalculatorLibrary\\StringCalculatorLibrary.csproj": {
+              "projectPath": "C:\\Users\\Юрий\\Desktop\\CalculationsService\\StringCalculatorLibrary\\StringCalculatorLibrary.csproj"
             }
           }
         }

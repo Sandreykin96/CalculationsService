@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aRKQ7qG0p/hWioa+bH9PYfQbIjwFWfSWJmrA/tkZ7RgbpSY62Qm0V/c8wstPWetWnzbMVOLug1TCQLWG6Oudkg==",
+  "dgSpecHash": "9aBnBVcEVg1tRUKOnqziD4LX4NP2knhG++Qutbj967ryYpjrYhpcA1WgiH/XhWdQnwgtgbQ1tbXSzijxM3ofLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Юрий\\Desktop\\конференция\\SymbolsCalks\\StringCalculatorUnitTest\\StringCalculatorUnitTest.csproj",
+  "projectFilePath": "C:\\Users\\Юрий\\Desktop\\CalculationsService\\StringCalculatorUnitTest\\StringCalculatorUnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Юрий\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
     "C:\\Users\\Юрий\\.nuget\\packages\\microsoft.codecoverage\\16.7.1\\microsoft.codecoverage.16.7.1.nupkg.sha512",

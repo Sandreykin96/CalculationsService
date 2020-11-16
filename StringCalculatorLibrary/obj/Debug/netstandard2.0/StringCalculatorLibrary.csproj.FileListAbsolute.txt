@@ -7,3 +7,12 @@ C:\Users\Юрий\Desktop\конференция\SymbolsCalks\StringCalculatorLi
 C:\Users\Юрий\Desktop\конференция\SymbolsCalks\StringCalculatorLibrary\obj\Debug\netstandard2.0\StringCalculatorLibrary.csproj.CoreCompileInputs.cache
 C:\Users\Юрий\Desktop\конференция\SymbolsCalks\StringCalculatorLibrary\obj\Debug\netstandard2.0\StringCalculatorLibrary.dll
 C:\Users\Юрий\Desktop\конференция\SymbolsCalks\StringCalculatorLibrary\obj\Debug\netstandard2.0\StringCalculatorLibrary.pdb
+C:\Users\Юрий\Desktop\CalculationsService\StringCalculatorLibrary\bin\Debug\netstandard2.0\StringCalculatorLibrary.deps.json
+C:\Users\Юрий\Desktop\CalculationsService\StringCalculatorLibrary\bin\Debug\netstandard2.0\StringCalculatorLibrary.dll
+C:\Users\Юрий\Desktop\CalculationsService\StringCalculatorLibrary\bin\Debug\netstandard2.0\StringCalculatorLibrary.pdb
+C:\Users\Юрий\Desktop\CalculationsService\StringCalculatorLibrary\obj\Debug\netstandard2.0\StringCalculatorLibrary.csprojAssemblyReference.cache
+C:\Users\Юрий\Desktop\CalculationsService\StringCalculatorLibrary\obj\Debug\netstandard2.0\StringCalculatorLibrary.AssemblyInfoInputs.cache
+C:\Users\Юрий\Desktop\CalculationsService\StringCalculatorLibrary\obj\Debug\netstandard2.0\StringCalculatorLibrary.AssemblyInfo.cs
+C:\Users\Юрий\Desktop\CalculationsService\StringCalculatorLibrary\obj\Debug\netstandard2.0\StringCalculatorLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Юрий\Desktop\CalculationsService\StringCalculatorLibrary\obj\Debug\netstandard2.0\StringCalculatorLibrary.dll
+C:\Users\Юрий\Desktop\CalculationsService\StringCalculatorLibrary\obj\Debug\netstandard2.0\StringCalculatorLibrary.pdb

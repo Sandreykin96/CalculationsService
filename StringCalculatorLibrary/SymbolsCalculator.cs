@@ -8,17 +8,13 @@ namespace StringCalculatorLibrary
     public class SymbolsCalculator
     {
         public List<string> ListOfCalcStrings { get; set; }
-
         public Dictionary<string, double?> InputDataKeyValue { get; set; }
         public Dictionary<string, double?> CalculatedDataKeyValue { get; set; }
 
-        public Dictionary<string, double?> OutputDataKeyValue { get; set; }
-
-        public SymbolsCalculator(List<string> listOfCalcStrings, Dictionary<string, double?> inputDataKeyValue, Dictionary<string, double?> outputDataKeyValue)
+        public SymbolsCalculator(List<string> listOfCalcStrings, Dictionary<string, double?> inputDataKeyValue)
         {
             ListOfCalcStrings = listOfCalcStrings;
             InputDataKeyValue = inputDataKeyValue;
-            OutputDataKeyValue = outputDataKeyValue;
             CalculatedDataKeyValue = new Dictionary<string, double?>();
         }
 
@@ -26,19 +22,38 @@ namespace StringCalculatorLibrary
         {
             foreach (var expression in ListOfCalcStrings)
             {
-                ReplaceWordsByNums(expression);
+                CalculateExpression(expression);
             }
-
             return CalculatedDataKeyValue;
         }
 
-        private void ReplaceWordsByNums(string expression)
+        private void CalculateExpression(string expression)
         {
-            var splittedExpression = expression.Split('=');
-            var leftPiece = splittedExpression.First().Replace(" ","");
-            var rightPiece = splittedExpression.Last();
+           
+           var splittedExpression = expression.Split('=');
+           var leftPiece = splittedExpression.First().Replace(" ", "");
+           var rightPiece = splittedExpression.Last();
+           
+           rightPiece = ReplaceWordsByNums(rightPiece);
 
-            char[] delimiter = { '/', '*', '+', '-', '^', '(', ')'};
+            double? result = null;
+            try
+            {
+                result = MakeCalkOfMathString(rightPiece);
+            }
+            finally
+            {
+                if (result != null)
+                {
+                    CalculatedDataKeyValue.Add(leftPiece, result);
+                }
+            }            
+        }
+
+        private string ReplaceWordsByNums(string rightPiece)
+        {
+
+            char[] delimiter = { '/', '*', '+', '-', '^', '(', ')' };
 
             var splitted = rightPiece.Split(delimiter);
 
@@ -62,19 +77,7 @@ namespace StringCalculatorLibrary
                 rightPiece = rightPiece.Replace(item.Key, item.Value.ToString());
             }
 
-            double? result = null;
-            try
-            {
-                result = MakeCalkOfMathString(rightPiece);
-            }
-            catch { 
-            
-            }
-
-            if(result != null)
-            {
-                CalculatedDataKeyValue.Add(leftPiece, result);
-            }
+            return rightPiece;
         }
 
         private double MakeCalkOfMathString(string expression)

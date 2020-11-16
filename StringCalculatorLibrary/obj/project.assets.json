@@ -186,11 +186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Юрий\\Desktop\\конференция\\SymbolsCalks\\StringCalculatorLibrary\\StringCalculatorLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\Юрий\\Desktop\\CalculationsService\\StringCalculatorLibrary\\StringCalculatorLibrary.csproj",
       "projectName": "StringCalculatorLibrary",
-      "projectPath": "C:\\Users\\Юрий\\Desktop\\конференция\\SymbolsCalks\\StringCalculatorLibrary\\StringCalculatorLibrary.csproj",
+      "projectPath": "C:\\Users\\Юрий\\Desktop\\CalculationsService\\StringCalculatorLibrary\\StringCalculatorLibrary.csproj",
       "packagesPath": "C:\\Users\\Юрий\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Юрий\\Desktop\\конференция\\SymbolsCalks\\StringCalculatorLibrary\\obj\\",
+      "outputPath": "C:\\Users\\Юрий\\Desktop\\CalculationsService\\StringCalculatorLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

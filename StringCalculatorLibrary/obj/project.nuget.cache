@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cMU03BPFwIF0BvnOEvXmUP7sxTrikTEBqnrG0Id4j2Dx9o6NE76vYWDATF4PexYYvNtxTG0Uoikp9xQjgEoT5g==",
+  "dgSpecHash": "+bVoN5EroVGwWOv1dmfx/FLndPJEZ0X/NA0+qCTnXWCcqkBu6d24tq72lLGC8u9D7aCBziBdIdQGXDHweY0M/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Юрий\\Desktop\\конференция\\SymbolsCalks\\StringCalculatorLibrary\\StringCalculatorLibrary.csproj",
+  "projectFilePath": "C:\\Users\\Юрий\\Desktop\\CalculationsService\\StringCalculatorLibrary\\StringCalculatorLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Юрий\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Юрий\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

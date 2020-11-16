@@ -21,10 +21,7 @@ namespace StringCalculatorUnitTest
             InputDataKeyValue.Add("a", 2);
             InputDataKeyValue.Add("b", 4);
 
-            var OutputDataKeyValue = new Dictionary<string, double?>();
-            OutputDataKeyValue.Add("c", null);
-
-            var calculator = new SymbolsCalculator(ListOfCalcStrings,InputDataKeyValue,OutputDataKeyValue);
+            var calculator = new SymbolsCalculator(ListOfCalcStrings,InputDataKeyValue);
             var expected = new Dictionary<string, double?>();
             expected.Add("c", 6);
 
@@ -54,7 +51,7 @@ namespace StringCalculatorUnitTest
             var OutputDataKeyValue = new Dictionary<string, double?>();
             OutputDataKeyValue.Add("c", null);
 
-            var calculator = new SymbolsCalculator(ListOfCalcStrings, InputDataKeyValue, OutputDataKeyValue);
+            var calculator = new SymbolsCalculator(ListOfCalcStrings, InputDataKeyValue);
             var expected = new Dictionary<string, double?>();
             expected.Add("c", 18);
 
@@ -73,7 +70,7 @@ namespace StringCalculatorUnitTest
             // Arrange
 
             var ListOfCalcStrings = new List<string>();
-            var expression1 = "c = (a + b)*d";
+            var expression1 = "c= (a+b)*d";
             var expression2 = "ee = c+1";
 
             ListOfCalcStrings.Add(expression1);
@@ -84,11 +81,7 @@ namespace StringCalculatorUnitTest
             InputDataKeyValue.Add("b", 4);
             InputDataKeyValue.Add("d", 3);
 
-            var OutputDataKeyValue = new Dictionary<string, double?>();
-            OutputDataKeyValue.Add("c", null);
-            OutputDataKeyValue.Add("ee", null);
-
-            var calculator = new SymbolsCalculator(ListOfCalcStrings, InputDataKeyValue, OutputDataKeyValue);
+            var calculator = new SymbolsCalculator(ListOfCalcStrings, InputDataKeyValue);
             var expected = new Dictionary<string, double?>();
             expected.Add("c", 18);
             expected.Add("ee", 19);

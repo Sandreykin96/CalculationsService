@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Юрий\\Desktop\\конференция\\SymbolsCalks\\SymbolsCalks\\SymbolsCalks.csproj": {}
+    "C:\\Users\\Юрий\\Desktop\\CalculationsService\\SymbolsCalks\\SymbolsCalks.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Юрий\\Desktop\\конференция\\SymbolsCalks\\StringCalculatorLibrary\\StringCalculatorLibrary.csproj": {
+    "C:\\Users\\Юрий\\Desktop\\CalculationsService\\StringCalculatorLibrary\\StringCalculatorLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Юрий\\Desktop\\конференция\\SymbolsCalks\\StringCalculatorLibrary\\StringCalculatorLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Юрий\\Desktop\\CalculationsService\\StringCalculatorLibrary\\StringCalculatorLibrary.csproj",
         "projectName": "StringCalculatorLibrary",
-        "projectPath": "C:\\Users\\Юрий\\Desktop\\конференция\\SymbolsCalks\\StringCalculatorLibrary\\StringCalculatorLibrary.csproj",
+        "projectPath": "C:\\Users\\Юрий\\Desktop\\CalculationsService\\StringCalculatorLibrary\\StringCalculatorLibrary.csproj",
         "packagesPath": "C:\\Users\\Юрий\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Юрий\\Desktop\\конференция\\SymbolsCalks\\StringCalculatorLibrary\\obj\\",
+        "outputPath": "C:\\Users\\Юрий\\Desktop\\CalculationsService\\StringCalculatorLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\Юрий\\Desktop\\конференция\\SymbolsCalks\\SymbolsCalks\\SymbolsCalks.csproj": {
+    "C:\\Users\\Юрий\\Desktop\\CalculationsService\\SymbolsCalks\\SymbolsCalks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Юрий\\Desktop\\конференция\\SymbolsCalks\\SymbolsCalks\\SymbolsCalks.csproj",
+        "projectUniqueName": "C:\\Users\\Юрий\\Desktop\\CalculationsService\\SymbolsCalks\\SymbolsCalks.csproj",
         "projectName": "SymbolsCalks",
-        "projectPath": "C:\\Users\\Юрий\\Desktop\\конференция\\SymbolsCalks\\SymbolsCalks\\SymbolsCalks.csproj",
+        "projectPath": "C:\\Users\\Юрий\\Desktop\\CalculationsService\\SymbolsCalks\\SymbolsCalks.csproj",
         "packagesPath": "C:\\Users\\Юрий\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Юрий\\Desktop\\конференция\\SymbolsCalks\\SymbolsCalks\\obj\\",
+        "outputPath": "C:\\Users\\Юрий\\Desktop\\CalculationsService\\SymbolsCalks\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -93,8 +93,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Юрий\\Desktop\\конференция\\SymbolsCalks\\StringCalculatorLibrary\\StringCalculatorLibrary.csproj": {
-                "projectPath": "C:\\Users\\Юрий\\Desktop\\конференция\\SymbolsCalks\\StringCalculatorLibrary\\StringCalculatorLibrary.csproj"
+              "C:\\Users\\Юрий\\Desktop\\CalculationsService\\StringCalculatorLibrary\\StringCalculatorLibrary.csproj": {
+                "projectPath": "C:\\Users\\Юрий\\Desktop\\CalculationsService\\StringCalculatorLibrary\\StringCalculatorLibrary.csproj"
               }
             }
           }
